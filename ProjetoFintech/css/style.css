@@ -1,0 +1,200 @@
+/* @media screen and (min-width: 700px) */
+header{
+    position: relative;
+    margin: 20px auto 0px auto;
+}
+
+body.index{
+    position: relative;
+    margin: 20px 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    background: linear-gradient(#FEFEFE);
+    box-sizing: border-box;
+}
+
+#logo { 
+    width: calc( 50% - 10px );
+    margin: auto;
+    display: block;
+}
+
+#email, #pwd {    
+    font-weight: 600;
+    font-size: 15px;
+    /* identical to box height, or 200% */
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #0FE7C0;
+    display: block;
+    margin: 0 0 20px;   
+}
+
+#email:hover, #pwd:hover{
+    border-color:#BC55FC; 
+}
+
+#email::placeholder, #pwd::placeholder{
+    color: #c5c7c9;
+    opacity: 1;
+    position: relative;
+    margin: auto;
+}
+
+#login {
+    font-weight: 600;
+    font-size: 15px;
+    /* identical to box height, or 200% */
+    text-align: center;
+    letter-spacing: 1px;
+    color:#FFFFFF;
+    background-color: #0c3c9b;
+    border-style: solid;
+    border-color: #0c3c9b;
+    opacity: 1;
+    display: block;
+    margin: 0 0 20px;
+    width: 100%;
+    transition: 1s all;
+}
+
+#login:hover{
+    background-color:#BC55FC;
+    border-color: #BC55FC;
+    transform: scale(1.01);
+}
+
+.opcoesLogin{
+    text-align: center;
+    list-style: none;
+    position: relative;
+    margin: auto;
+}
+
+.opcoesLogin a {
+    color:#FEFEFE;
+}
+
+.textoLogin {
+    font-weight: 600;
+    font-size: 15px;
+    color:#616164;
+}
+
+#acesseAqui {
+    font-weight: 600;
+    font-size: 15px;
+    color:#68A0BF;
+}
+
+#acesseAqui:active {
+    color:#0c3c9b;
+}
+
+#logoHome { 
+    margin: auto;
+    display: block;
+    width:"100"; 
+    height:"125";
+}
+
+/* home */
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.cabecalho{
+    background-color:#ebeef4;
+    margin: auto;
+}
+
+body.cabecalho{
+    position: relative;
+}
+
+.cabecalho em{
+    color:#0c3c9b;
+    margin: 20px;
+}
+
+.menu_lateral{
+    display: flex;
+    flex-direction:column;
+    background-color:#ebeef4;
+    width: 25vw;
+    height: 100%;
+    position: absolute;
+    left: -100vw;
+}
+.menu_lateral_itens{
+    height: 60px;
+    color:#0c3c9b;
+    margin: 30px 10px auto;
+}
+
+.menu_lateral_itens em{
+    margin: 10px;
+    align-items: center;
+    color:#0FE7C0;
+}
+
+.menu_lateral_itens:active{
+    border-left: 10px solid #fefefe;
+    padding-left: 20px;
+    color:#0c3c9b;   
+}
+
+.videoaula{
+    width: calc( 30% - 10px );
+    margin: 20px auto;
+    display: block; 
+    box-shadow: 0  0 3px 3px #0FE7C0;
+}
+
+.titulografico{
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: normal;
+    color:#0c3c9b;
+    box-sizing: border-box;
+}
+
+#grafico1{
+    margin: 20px auto;
+    width: calc( 50% - 10px );
+    margin: auto;
+    display: block;
+}
+
+#grafico2{
+    margin: auto;
+    width: calc( 50% - 10px );
+    margin: auto;
+    display: block;
+}
+
+footer{
+    width: 100%;
+    }
+
+@media screen and (max-width: 912px){
+    body.index{
+        margin: 100px 20px auto 20px;
+    }
+    #logo { 
+        width: calc( 60% - 10px );
+    }
+}
+
+@media screen and (min-width: 2000px){
+    #logo { 
+        width: calc( 20% - 10px );
+    }
+}
