@@ -34,18 +34,4 @@ Linguagem de Programação<br>
    img<br> 
        |-- img<br> -- Ícones e imagens do site
       css<br>
-       |-- reset.css<br> -- css -- Tirar a formatação do browser 
-       |-- style.css<br> -- css -- Estilo nas telas do site
-    |  |-- style.css<br> -- css -- Estilo nas telas do site
-    |  |  |  |  |  |-- Compartilhado.java -- Passos escritos em java com selenium - comando comapartilhado <br>
-    |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test <br> 
-    |  |  |  |  |  |-- services <br>
-    |  |  |  |  |  |  |-- Comando.java -- Configura comandos no Java test <br> 
-    |  |-- resources <br>
-    |  |  |-- io <br>
-    |  |  |  |-- cucumber <br>
-    |  |  |  |  |-- juliarwalter <br>
-    |  |  |  |  |  |-- CenarioDeTeste1.feature -- Gherkin com o caso de teste 1 <br>
-  test.bat -- Arquivo para rodar teste no Windows<br>
-  test.sh -- Arquivo para rodar teste no Unix<br>
 </pre>
