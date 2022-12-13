@@ -25,14 +25,17 @@ Linguagem de Programação<br>
 <pre>
   ProjetoFintech <br>
     |
-    html<br>
-       |-- index.html<br> -- html -- Tela de login
-       |-- home.html<br> -- html -- Tela da home
-    css<br>
-       |-- reset.css<br> -- css -- Tirar a formatação do browser 
-       |-- style.css<br> -- css -- Estilo nas telas do site
-    img<br> 
-       |-- img<br> -- Ícones e imagens do site
-    js<br>
-       |-- js<br> -- Arquivo em JavaScript
+    - html<br>
+       |-- index.html -- html -- Tela de login<br>
+       |-- home.html -- html -- Tela da home<br>
+    |
+    - css<br>
+       |-- reset.css -- css -- Tirar a formatação do browser<br>
+       |-- style.css -- css -- Estilo nas telas do site<br>
+    |
+    - img<br> 
+       |-- img -- Ícones e imagens do site<br>
+    |
+    - js<br>
+       |-- js -- Arquivo em JavaScript<br>
 </pre>
